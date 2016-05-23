@@ -13,4 +13,4 @@ gulp.task('default', function(){
 	.on('restart', function(){
 		console.log('Restarting');
 	});
-})
+});

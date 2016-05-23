@@ -21,7 +21,6 @@ bookRouter.route('/Books')
         res.json(books);
       }
     });
-    res.json(responseJson);
   });
 app.get('/', function(req, res) {
   res.send('welcome to my API');
